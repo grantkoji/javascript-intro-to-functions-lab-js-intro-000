@@ -15,10 +15,10 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  if (string === function logWhisper(string)) {
+  if (`${string}` === function logWhisper(string)) {
     return "I can\'t hear you!"
   }
-  else if (string === function logShout(string)) {
+  else if (`${string}` === function logShout(string)) {
     return "YES INDEED!"
   }
   else if (string === "I love you, Grandma.") {
